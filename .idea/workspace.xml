@@ -26,6 +26,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
@@ -43,7 +44,7 @@
       <updated>1598081162278</updated>
       <workItem from="1598081163371" duration="21651000" />
       <workItem from="1598159182695" duration="36100000" />
-      <workItem from="1598240871367" duration="3043000" />
+      <workItem from="1598240871367" duration="8744000" />
     </task>
     <servers />
   </component>

@@ -557,6 +557,7 @@ body {
       &:before,
       &:after {
         border-width: calc(1rem / 7);
+        border-width: 2px;
       }
     }
   }
@@ -589,18 +590,15 @@ body {
     & .checkbox__svg {
       position: absolute;
       display: block;
-      top: calc(((100% - 1rem) / 2) - 2%);
-      left: 1px;
+      top: calc((100% - 1rem) / 2);
+      left: .52%;
       content: '';
       width: 1rem;
       height: 1rem;
-      font-size: 1rem;
       opacity: 0;
       fill: #ffffff;
       stroke: #ffffff;
       z-index: $z-index / $z-index;
-      transform: scale(1);
-      margin: 0;
     }
 
     & label {
@@ -620,8 +618,8 @@ body {
         top: calc(((100% - 1rem) / 2) - 8%);
         left: 0;
         content: '';
-        width: 1rem;
-        height: 1rem;
+        width: calc(1rem );
+        height: calc(1rem );
         border: 1px solid transparent;
         background-color: transparent;
         z-index: 0;
