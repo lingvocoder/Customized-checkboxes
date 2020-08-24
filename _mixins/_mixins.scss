@@ -1,0 +1,372 @@
+@function setTheme($name, $idx){
+  $themes: (
+          theme_1:'glacimonto',
+          theme_2:'cielo-maro',
+          theme_3:'citrono',
+          theme_4:'domati',
+          theme_5:'folio',
+          theme_6:'orango',
+          theme_7:'viola',
+          theme_8:'skarlata',
+          theme_9:'nego'
+  );
+  $bg-color:transparent;
+  @if(index(map-values($themes), $name) != null){
+    @if($name == 'cielo-maro'){
+      @if($idx == 'a'){
+        $bg-color:#878fd3;
+      }
+      @if($idx == 'b'){
+        $bg-color:#737ccc;
+      }
+      @if($idx == 'c'){
+        $bg-color:#5f69c4;
+      }
+      @if($idx == 'd'){
+        $bg-color:#4b57bd;
+      }
+      @if($idx == 'e'){
+        $bg-color:#3744b6;
+      }
+      @if($idx == 'f'){
+        $bg-color:#2332af;
+      }
+      @if($idx == 'g'){
+        $bg-color:#202ea0;
+      }
+      @if($idx == 'h'){
+        $bg-color:#1d2990;
+      }
+      @if($idx == 'i'){
+        $bg-color:#1a2580;
+      }
+      @if($idx == 'j'){
+        $bg-color:#172070;
+      }
+    }
+    @if($name == 'viola'){
+      @if($idx == 'a'){
+        $bg-color:#cfcbea;
+      }
+      @if($idx == 'b'){
+        $bg-color:#bfb9e3;
+      }
+      @if($idx == 'c'){
+        $bg-color:#afa8dc;
+      }
+      @if($idx == 'd'){
+        $bg-color:#9f97d5;
+      }
+      @if($idx == 'e'){
+        $bg-color:#8f86ce;
+      }
+      @if($idx == 'f'){
+        $bg-color:#7f74c7;
+      }
+      @if($idx == 'g'){
+        $bg-color:#6f63c0;
+      }
+      @if($idx == 'h'){
+        $bg-color:#5f52b9;
+      }
+      @if($idx == 'i'){
+        $bg-color:#5041b2;
+      }
+      @if($idx == 'j'){
+        $bg-color:#493ca2;
+      }
+    }
+    @if($name == 'skarlata'){
+      @if($idx == 'a'){
+        $bg-color:#f1bcc4;
+      }
+      @if($idx == 'b'){
+        $bg-color:#eda6b1;
+      }
+      @if($idx == 'c'){
+        $bg-color:#e8909e;
+      }
+      @if($idx == 'd'){
+        $bg-color:#e47a8a;
+      }
+      @if($idx == 'e'){
+        $bg-color:#df6477;
+      }
+      @if($idx == 'f'){
+        $bg-color:#db4e64;
+      }
+      @if($idx == 'g'){
+        $bg-color:#d63850;
+      }
+      @if($idx == 'h'){
+        $bg-color:#d2223d;
+      }
+      @if($idx == 'i'){
+        $bg-color:#ce0c2a;
+      }
+      @if($idx == 'j'){
+        $bg-color:#bc0b27;
+      }
+    }
+    @if($name == 'citrono'){
+      @if($idx == 'a'){
+        $bg-color:#ffe49e;
+      }
+      @if($idx == 'b'){
+        $bg-color:#ffdf8e;
+      }
+      @if($idx == 'c'){
+        $bg-color:#ffdb7e;
+      }
+      @if($idx == 'd'){
+        $bg-color:#ffd66e;
+      }
+      @if($idx == 'e'){
+        $bg-color:#ffd25e;
+      }
+      @if($idx == 'f'){
+        $bg-color:#ffce4e;
+      }
+      @if($idx == 'g'){
+        $bg-color:#e8bc47;
+      }
+      @if($idx == 'h'){
+        $bg-color:#d1a940;
+      }
+      @if($idx == 'i'){
+        $bg-color:#ba9639;
+      }
+      @if($idx == 'j'){
+        $bg-color:#a38432;
+      }
+    }
+    @if($name == 'domati'){
+      @if($idx == 'a'){
+        $bg-color:#eeaa9d;
+      }
+      @if($idx == 'a'){
+        $bg-color:#eb9a89;
+      }
+      @if($idx == 'b'){
+        $bg-color:#e88976;
+      }
+      @if($idx == 'c'){
+        $bg-color:#e47862;
+      }
+      @if($idx == 'd'){
+        $bg-color:#e1674f;
+      }
+      @if($idx == 'e'){
+        $bg-color:#de563b;
+      }
+      @if($idx == 'f'){
+        $bg-color:#db4628;
+      }
+      @if($idx == 'g'){
+        $bg-color:#c84025;
+      }
+      @if($idx == 'h'){
+        $bg-color:#b43a21;
+      }
+      @if($idx == 'i'){
+        $bg-color:#a0331e;
+      }
+      @if($idx == 'j'){
+        $bg-color:#8c2d1a;
+      }
+    }
+    @if($name == 'folio'){
+      @if($idx == 'a'){
+        $bg-color:#afe092;
+      }
+      @if($idx == 'b'){
+        $bg-color:#9fda7d;
+      }
+      @if($idx == 'c'){
+        $bg-color:#8fd467;
+      }
+      @if($idx == 'd'){
+        $bg-color:#7fce51;
+      }
+      @if($idx == 'e'){
+        $bg-color:#6fc83c;
+      }
+      @if($idx == 'f'){
+        $bg-color:#5fc226;
+      }
+      @if($idx == 'g'){
+        $bg-color:#4fbc11;
+      }
+      @if($idx == 'h'){
+        $bg-color:#48ab10;
+      }
+      @if($idx == 'i'){
+        $bg-color:#419a0e;
+      }
+      @if($idx == 'j'){
+        $bg-color:#3a890d;
+      }
+
+    }
+    @if($name == 'glacimonto'){
+      @if($idx == 'a'){
+        $bg-color:#acd4dd;
+      }
+      @if($idx == 'b'){
+        $bg-color:#9bcbd6;
+      }
+      @if($idx == 'c'){
+        $bg-color:#8bc3cf;
+      }
+      @if($idx == 'd'){
+        $bg-color:#7abac9;
+      }
+      @if($idx == 'e'){
+        $bg-color:#6ab2c2;
+      }
+      @if($idx == 'f'){
+        $bg-color:#59a9bb;
+      }
+      @if($idx == 'g'){
+        $bg-color:#49a1b5;
+      }
+      @if($idx == 'h'){
+        $bg-color:#4393a5;
+      }
+      @if($idx == 'i'){
+        $bg-color:#3c8495;
+      }
+      @if($idx == 'j'){
+        $bg-color:#367684;
+      }
+    }
+    @if($name == 'orango'){
+      @if($idx == 'a'){
+        $bg-color:#f5c99b;
+      }
+      @if($idx == 'b'){
+        $bg-color:#f3bf87;
+      }
+      @if($idx == 'c'){
+        $bg-color:#f1b473;
+      }
+      @if($idx == 'd'){
+        $bg-color:#efa95f;
+      }
+      @if($idx == 'e'){
+        $bg-color:#ed9f4b;
+      }
+      @if($idx == 'f'){
+        $bg-color:#eb9437;
+      }
+      @if($idx == 'g'){
+        $bg-color:#ea8a24;
+      }
+      @if($idx == 'h'){
+        $bg-color:#d57e21;
+      }
+      @if($idx == 'i'){
+        $bg-color:#c0711e;
+      }
+      @if($idx == 'j'){
+        $bg-color:#ab651b;
+      }
+    }
+    @if($name == 'nego'){
+      @if($idx == 'a'){
+        $bg-color:#f4eee8;
+      }
+      @if($idx == 'b'){
+        $bg-color:#f3ece5;
+      }
+      @if($idx == 'c'){
+        $bg-color:#f1e9e2;
+      }
+      @if($idx == 'd'){
+        $bg-color:#f0e7df;
+      }
+      @if($idx == 'e'){
+        $bg-color:#efe5dc;
+      }
+      @if($idx == 'f'){
+        $bg-color:#dad1c8;
+      }
+      @if($idx == 'g'){
+        $bg-color:#c4bcb5;
+      }
+      @if($idx == 'h'){
+        $bg-color:#aea7a1;
+      }
+      @if($idx == 'i'){
+        $bg-color:#99928c;
+      }
+      @if($idx == 'j'){
+        $bg-color:#837d78;
+      }
+    }
+  }
+  @else {
+    @warn "Value not found!";
+  }
+  @return $bg-color;
+}
+
+@mixin margin($direction, $value){
+  @if($direction == 'auto'){
+    margin: $value unquote($direction);
+  }
+  @else if($direction == '' or $direction == null) {
+    margin: $value;
+  }
+  @else {
+    margin-#{unquote($direction)}: $value;
+  }
+}
+
+@mixin border-radius($radius, $side:false){
+  @if($side == 'left'){
+    border-bottom-left-radius: $radius;
+    border-top-left-radius: $radius;
+  }
+  @else if($side == 'right'){
+    border-bottom-right-radius: $radius;
+    border-top-right-radius: $radius;
+  }
+  @else if($side == 'right-bottom'){
+    border-bottom-right-radius: $radius;
+  }
+  @else if($side == 'right-top'){
+    border-bottom-right-radius: $radius;
+    border-top-right-radius: $radius;
+  }
+  @else {
+    border-radius: $radius;
+  }
+}
+
+@function setFontSizeRem($base, $size){
+  $sizeRem:0;
+  $r:$base / ($base * 0 + 1);
+  @warn "Function will return 'rem' units";
+  @return $size / $r * 1rem;
+}
+
+@function setBorderRadius ($prop) {
+  $border-top-right-radius: 0;
+  $border-top-left-radius: 0;
+  $border-bottom-left-radius: 0;
+  $border-bottom-right-radius: 0;
+  $defaultRadii: ($border-top-right-radius, $border-top-left-radius, $border-bottom-left-radius, $border-bottom-right-radius);
+
+  $setRadii: ();
+  @for $i from 1 through length($defaultRadii) {
+    $r: null;
+    @if $i <= length($prop) {
+      $r: nth($prop, $i)
+    } @else {
+      $p: nth($defaultRadii, $i)
+    }
+    $setRadii: append($setRadii, $r);
+  }
+  @return $setRadii;
+}

@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto:wght@300;400;500&display=swap"
+          rel="stylesheet">
+    <title>Custom Checkboxes Radio Selects</title>
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="header__inner">
+            <div class="header__heading">
+                <h1 class="header__text">Checkboxes/Radio buttons/Selects</h1>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <input type="radio" id="snow" name="color" value="snow"/>
+        <input type="radio" id="fog" name="color" value="fog"/>
+        <input type="radio" id="w-stone" name="color" value="wet_stone"/>
+        <input type="radio" id="gr_1" name="color" value="gr_1"/>
+        <input type="radio" id="gr_2" name="color" value="gr_2"/>
+        <input type="radio" id="gr_3" name="color" value="gr_3"/>
+        <input type="radio" id="gr_4" name="color" value="gr_4"/>
+        <input type="radio" id="sky" name="color" value="sky"/>
+        <input type="radio" id="sea" name="color" value="sea"/>
+        <input type="radio" id="sapphire" name="color" value="sapphire"/>
+        <input type="radio" id="neon" name="color" value="neon"/>
+        <input type="radio" id="red" name="color" value="red"/>
+        <input type="radio" id="orange" name="color" value="orange"/>
+        <input type="radio" id="gold" name="color" value="gold"/>
+        <input type="radio" id="pink" name="color" value="pink"/>
+        <input type="radio" id="pink_1" name="color" value="pink_1"/>
+        <input type="radio" id="coral" name="color" value="coral"/>
+        <input type="radio" id="indigo" name="color" value="indigo"/>
+        <input type="radio" id="indigo_1" name="color" value="indigo_1"/>
+        <input type="radio" id="indigo_2" name="color" value="indigo_2"/>
+        <input type="radio" id="azure" name="color" value="azure"/>
+        <input type="radio" id="azure_1" name="color" value="azure_1"/>
+        <input type="radio" id="azure_2" name="color" value="azure_2"/>
+        <input type="radio" id="azure_3" name="color" value="azure_3"/>
+        <aside class="section__aside">
+            <div class="section__menu">
+                <label class="section__item section__item_snow" for="snow"></label>
+                <label class="section__item section__item_fog" for="fog"></label>
+                <label class="section__item section__item_w-stone" for="w-stone"></label>
+                <label class="section__item section__item_gr_1" for="gr_1"></label>
+                <label class="section__item section__item_gr_2" for="gr_2"></label>
+                <label class="section__item section__item_gr_3" for="gr_3"></label>
+                <label class="section__item section__item_gr_4" for="gr_4"></label>
+                <label class="section__item section__item_sky" for="sky"></label>
+                <label class="section__item section__item_sea" for="sea"></label>
+                <label class="section__item section__item_sapphire" for="sapphire"></label>
+                <label class="section__item section__item_neon" for="neon"></label>
+                <label class="section__item section__item_red" for="red"></label>
+                <label class="section__item section__item_orange" for="orange"></label>
+                <label class="section__item section__item_gold" for="gold"></label>
+                <label class="section__item section__item_pink" for="pink"></label>
+                <label class="section__item section__item_pink_1" for="pink_1"></label>
+                <label class="section__item section__item_coral" for="coral"></label>
+                <label class="section__item section__item_indigo" for="indigo"></label>
+                <label class="section__item section__item_indigo_1" for="indigo_1"></label>
+                <label class="section__item section__item_indigo_2" for="indigo_2"></label>
+                <label class="section__item section__item_azure" for="azure"></label>
+                <label class="section__item section__item_azure_1" for="azure_1"></label>
+                <label class="section__item section__item_azure_2" for="azure_2"></label>
+                <label class="section__item section__item_azure_3" for="azure_3"></label>
+            </div>
+        </aside>
+        <section class="section">
+            <div class="main__wrapper main__wrapper_horizontal">
+                <div class="main__card">
+                    <!--Стандартные (без скруглений)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Скругление углов элементов?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox">
+                                <input checked type="checkbox"/>
+                                <div class="checkbox_state">
+                                    <label>Без скругления</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox">
+                                <input type="checkbox"/>
+                                <div class="checkbox_state">
+                                    <label>Без скругления</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox">
+                                <input type="checkbox"/>
+                                <div class="checkbox_state">
+                                    <label>Без скругления</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Стандартные (скругление внешнее)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Скругление внешнего элемента?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_outside-curved">
+                                <input checked type="checkbox"/>
+                                <div class="checkbox_state">
+                                    <label>Скругление внешнее</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_outside-curved">
+                                <input type="checkbox"/>
+                                <div class="checkbox_state">
+                                    <label>Скругление внешнее</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_outside-curved">
+                                <input type="checkbox"/>
+                                <div class="checkbox_state">
+                                    <label>Скругление внешнее</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Стандартные (скругление)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Скругление углов элементов?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_all-curved">
+                                <input checked type="checkbox"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_all-curved">
+                                <input type="checkbox"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_all-curved">
+                                <input type="checkbox"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Стандартные (круглая)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Ширина границы внешнего элемента?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_round">
+                                <input checked type="checkbox"/>
+                                <div class="checkbox_state">
+                                    <label>Ширина границы меньше 1px</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_round">
+                                <input type="checkbox"/>
+                                <div class="checkbox_state">
+                                    <label>Ширина границы меньше 1px</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_round">
+                                <input type="checkbox"/>
+                                <div class="checkbox_state">
+                                    <label>Ширина границы меньше 1px</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="main__wrapper main__wrapper_horizontal">
+                <div class="main__card">
+                    <!--Стандартные (без скруглений/граница > 1px)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Скругление углов элементов?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_border-thick">
+                                <input type="checkbox" checked/>
+                                <div class="checkbox_state">
+                                    <label>Без скругления</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_border-thick">
+                                <input type="checkbox"/>
+                                <div class="checkbox_state">
+                                    <label>Без скругления</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_border-thick">
+                                <input type="checkbox"/>
+                                <div class="checkbox_state">
+                                    <label>Без скругления</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Стандартные (скругление внешнее/граница > 1px)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Скругление внешнего элемента?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_outside-curved checkbox_border-thick">
+                                <input type="checkbox" checked/>
+                                <div class="checkbox_state">
+                                    <label>Скругление внешнее</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_outside-curved checkbox_border-thick">
+                                <input type="checkbox"/>
+                                <div class="checkbox_state">
+                                    <label>Скругление внешнее</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_outside-curved checkbox_border-thick">
+                                <input type="checkbox"/>
+                                <div class="checkbox_state">
+                                    <label>Скругление внешнее</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Стандартные (скругление/граница > 1px)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Скругление углов элементов?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_all-curved checkbox_border-thick">
+                                <input type="checkbox" checked/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_all-curved checkbox_border-thick">
+                                <input type="checkbox"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_all-curved checkbox_border-thick">
+                                <input type="checkbox"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Стандартные (круглая/граница > 1px)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Ширина границы внешнего элемента?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_round checkbox_border-thick">
+                                <input type="checkbox" checked/>
+                                <div class="checkbox_state">
+                                    <label>Ширина границы больше 1px</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_round checkbox_border-thick">
+                                <input type="checkbox"/>
+                                <div class="checkbox_state">
+                                    <label>Ширина границы больше 1px</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_round checkbox_border-thick">
+                                <input type="checkbox"/>
+                                <div class="checkbox_state">
+                                    <label>Ширина границы больше 1px</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="main__wrapper main__wrapper_horizontal">
+                <div class="main__card">
+                    <!--Стандартные (без скруглений/с анимацией)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Используется ли здесь анимация?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_bg-smooth">
+                                <input type="checkbox" checked name="smooth"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_bg-smooth">
+                                <input type="checkbox" name="smooth"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_bg-smooth">
+                                <input type="checkbox" name="smooth"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Стандартные (скругление внешнее/с анимацией)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Скругление внешнего элемента?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_outside-curved checkbox_bg-smooth">
+                                <input type="checkbox" checked name="smooth"/>
+                                <div class="checkbox_state">
+                                    <label>Скругление внешнее</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_outside-curved checkbox_bg-smooth">
+                                <input type="checkbox" name="smooth"/>
+                                <div class="checkbox_state">
+                                    <label>Скругление внешнее</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_outside-curved checkbox_bg-smooth">
+                                <input type="checkbox" name="smooth"/>
+                                <div class="checkbox_state">
+                                    <label>Скругление внешнее</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Стандартные (скругление/с анимацией)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Скругление углов элементов?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_all-curved checkbox_bg-smooth">
+                                <input type="checkbox" checked name="smooth"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_all-curved checkbox_bg-smooth">
+                                <input type="checkbox" name="smooth"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_all-curved checkbox_bg-smooth">
+                                <input type="checkbox" name="smooth"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Стандартные (круглая/с анимацией)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Ширина границы внешнего элемента?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_round checkbox_bg-smooth">
+                                <input type="checkbox" checked name="smooth"/>
+                                <div class="checkbox_state">
+                                    <label>Ширина границы меньше 1px</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_round checkbox_bg-smooth">
+                                <input type="checkbox" name="smooth"/>
+                                <div class="checkbox_state">
+                                    <label>Ширина границы меньше 1px</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_round checkbox_bg-smooth">
+                                <input type="checkbox" name="smooth"/>
+                                <div class="checkbox_state">
+                                    <label>Ширина границы меньше 1px</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="main__wrapper main__wrapper_horizontal">
+                <div class="main__card">
+                    <!--Стандартные (без скруглений/с анимацией)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Используется ли здесь анимация?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_bg-smooth checkbox_border-thick">
+                                <input type="checkbox" checked name="smooth"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_bg-smooth checkbox_border-thick">
+                                <input type="checkbox" name="smooth"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_bg-smooth checkbox_border-thick">
+                                <input type="checkbox" name="smooth"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Стандартные (скругление внешнее/с анимацией)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Скругление внешнего элемента?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_outside-curved checkbox_bg-smooth checkbox_border-thick">
+                                <input type="checkbox" checked name="smooth"/>
+                                <div class="checkbox_state">
+                                    <label>Скругление внешнее</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_outside-curved checkbox_bg-smooth checkbox_border-thick">
+                                <input type="checkbox" name="smooth"/>
+                                <div class="checkbox_state">
+                                    <label>Скругление внешнее</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_outside-curved checkbox_bg-smooth checkbox_border-thick">
+                                <input type="checkbox" name="smooth"/>
+                                <div class="checkbox_state">
+                                    <label>Скругление внешнее</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Стандартные (скругление/с анимацией)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Скругление углов элементов?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_all-curved checkbox_bg-smooth checkbox_border-thick">
+                                <input type="checkbox" checked name="smooth"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_all-curved checkbox_bg-smooth checkbox_border-thick">
+                                <input type="checkbox" name="smooth"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_all-curved checkbox_bg-smooth checkbox_border-thick">
+                                <input type="checkbox" name="smooth"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Стандартные (круглая/с анимацией)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Ширина границы внешнего элемента?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_round checkbox_bg-smooth checkbox_border-thick">
+                                <input type="checkbox" checked name="smooth"/>
+                                <div class="checkbox_state">
+                                    <label>Ширина границы больше 1px</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_round checkbox_bg-smooth checkbox_border-thick">
+                                <input type="checkbox" name="smooth"/>
+                                <div class="checkbox_state">
+                                    <label>Ширина границы больше 1px</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_round checkbox_bg-smooth checkbox_border-thick">
+                                <input type="checkbox" name="smooth"/>
+                                <div class="checkbox_state">
+                                    <label>Ширина границы больше 1px</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="main__wrapper main__wrapper_horizontal">
+                <div class="main__card">
+                    <!--Стандартные (без скруглений/с анимацией)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Используется ли здесь анимация?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_bg-pulse">
+                                <input type="checkbox" name="pulse" checked/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_bg-pulse">
+                                <input type="checkbox" name="pulse"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_bg-pulse">
+                                <input type="checkbox" name="pulse"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Стандартные (скругление внешнее/с анимацией)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Скругление внешнего элемента?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_outside-curved checkbox_bg-pulse">
+                                <input type="checkbox" checked name="pulse"/>
+                                <div class="checkbox_state">
+                                    <label>Скругление внешнее</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_outside-curved checkbox_bg-pulse">
+                                <input type="checkbox" name="pulse"/>
+                                <div class="checkbox_state">
+                                    <label>Скругление внешнее</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_outside-curved checkbox_bg-pulse">
+                                <input type="checkbox" name="pulse"/>
+                                <div class="checkbox_state">
+                                    <label>Скругление внешнее</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Стандартные (скругление/с анимацией)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Скругление углов элементов?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_all-curved checkbox_bg-pulse">
+                                <input type="checkbox" checked name="pulse"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_all-curved checkbox_bg-pulse">
+                                <input type="checkbox" name="pulse"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_all-curved checkbox_bg-pulse">
+                                <input type="checkbox" name="pulse"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Стандартные (круглая/с анимацией)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Ширина границы внешнего элемента?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_round checkbox_bg-pulse">
+                                <input type="checkbox" checked name="pulse"/>
+                                <div class="checkbox_state">
+                                    <label>Ширина границы меньше 1px</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_round checkbox_bg-pulse">
+                                <input type="checkbox" name="pulse"/>
+                                <div class="checkbox_state">
+                                    <label>Ширина границы меньше 1px</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_round checkbox_bg-pulse">
+                                <input type="checkbox" name="pulse"/>
+                                <div class="checkbox_state">
+                                    <label>Ширина границы меньше 1px</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="main__wrapper main__wrapper_horizontal">
+                <div class="main__card">
+                    <!--Стандартные (без скруглений/с анимацией)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Используется ли здесь анимация?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_bg-pulse checkbox_border-thick">
+                                <input type="checkbox" name="pulse" checked/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_bg-pulse checkbox_border-thick">
+                                <input type="checkbox" name="pulse"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_bg-pulse checkbox_border-thick">
+                                <input type="checkbox" name="pulse"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Стандартные (скругление внешнее/с анимацией)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Скругление внешнего элемента?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_outside-curved checkbox_bg-pulse checkbox_border-thick">
+                                <input type="checkbox" checked name="pulse"/>
+                                <div class="checkbox_state">
+                                    <label>Скругление внешнее</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_outside-curved checkbox_bg-pulse checkbox_border-thick">
+                                <input type="checkbox" name="pulse"/>
+                                <div class="checkbox_state">
+                                    <label>Скругление внешнее</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_outside-curved checkbox_bg-pulse checkbox_border-thick">
+                                <input type="checkbox" name="pulse"/>
+                                <div class="checkbox_state">
+                                    <label>Скругление внешнее</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Стандартные (скругление/с анимацией)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Скругление углов элементов?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_all-curved checkbox_bg-pulse checkbox_border-thick">
+                                <input type="checkbox" checked name="pulse"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_all-curved checkbox_bg-pulse checkbox_border-thick">
+                                <input type="checkbox" name="pulse"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_all-curved checkbox_bg-pulse checkbox_border-thick">
+                                <input type="checkbox" name="pulse"/>
+                                <div class="checkbox_state">
+                                    <label>Да</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Стандартные (круглая/с анимацией)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Ширина границы внешнего элемента?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_round checkbox_bg-pulse checkbox_border-thick">
+                                <input type="checkbox" checked name="pulse"/>
+                                <div class="checkbox_state">
+                                    <label>Ширина границы больше 1px</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_round checkbox_bg-pulse checkbox_border-thick">
+                                <input type="checkbox" name="pulse"/>
+                                <div class="checkbox_state">
+                                    <label>Ширина границы больше 1px</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_round checkbox_bg-pulse checkbox_border-thick">
+                                <input type="checkbox" name="pulse"/>
+                                <div class="checkbox_state">
+                                    <label>Ширина границы больше 1px</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="main__wrapper main__wrapper_horizontal">
+                <div class="main__card">
+                    <!--Стандартные (без скруглений/с анимацией)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Используется ли здесь анимация?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_bg-svg">
+                                <input type="checkbox" name="svg" checked/>
+                                <div class="checkbox_state">
+                                    <svg aria-hidden="true" focusable="false" class="checkbox__svg" role="img"
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         viewBox="0 0 448 512">
+                                        <path fill=""
+                                              d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"></path>
+                                    </svg>
+                                    <label class="checkbox_full">Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_bg-svg">
+                                <input type="checkbox" name="svg"/>
+                                <div class="checkbox_state">
+                                    <svg aria-hidden="true" focusable="false" class="checkbox__svg" role="img"
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         viewBox="0 0 448 512">
+                                        <path fill=""
+                                              d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"></path>
+                                    </svg>
+                                    <label class="checkbox_full">Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_bg-svg">
+                                <input type="checkbox" name="svg"/>
+                                <div class="checkbox_state">
+                                    <svg aria-hidden="true" focusable="false" class="checkbox__svg" role="img"
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         viewBox="0 0 448 512">
+                                        <path fill=""
+                                              d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"></path>
+                                    </svg>
+                                    <label class="checkbox_full">Да</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Стандартные (скругление/с анимацией)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Скругление углов элементов?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_all-curved checkbox_bg-svg">
+                                <input type="checkbox" checked name="svg"/>
+                                <div class="checkbox_state">
+                                    <svg aria-hidden="true" focusable="false" class="checkbox__svg" role="img"
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         viewBox="0 0 448 512">
+                                        <path fill=""
+                                              d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"></path>
+                                    </svg>
+                                    <label class="checkbox_full">Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_all-curved checkbox_bg-svg">
+                                <input type="checkbox" name="svg"/>
+                                <div class="checkbox_state">
+                                    <svg aria-hidden="true" focusable="false" class="checkbox__svg" role="img"
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         viewBox="0 0 448 512">
+                                        <path fill=""
+                                              d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"></path>
+                                    </svg>
+                                    <label class="checkbox_full">Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_all-curved checkbox_bg-svg">
+                                <input type="checkbox" name="svg"/>
+                                <div class="checkbox_state">
+                                    <svg aria-hidden="true" focusable="false" class="checkbox__svg" role="img"
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         viewBox="0 0 448 512">
+                                        <path fill=""
+                                              d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"></path>
+                                    </svg>
+                                    <label class="checkbox_full">Да</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Стандартные (круглая/с анимацией)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Ширина границы внешнего элемента?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_round checkbox_bg-svg">
+                                <input type="checkbox" checked name="svg"/>
+                                <div class="checkbox_state">
+                                    <svg aria-hidden="true" focusable="false" class="checkbox__svg" role="img"
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         viewBox="0 0 448 512">
+                                        <path fill=""
+                                              d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"></path>
+                                    </svg>
+                                    <label class="checkbox_full">Ширина границы меньше 1px</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_round checkbox_bg-svg">
+                                <input type="checkbox" name="svg"/>
+                                <div class="checkbox_state">
+                                    <svg aria-hidden="true" focusable="false" class="checkbox__svg" role="img"
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         viewBox="0 0 448 512">
+                                        <path fill=""
+                                              d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"></path>
+                                    </svg>
+                                    <label class="checkbox_full">Ширина границы меньше 1px</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_round checkbox_bg-svg">
+                                <input type="checkbox" name="svg"/>
+                                <div class="checkbox_state">
+                                    <svg aria-hidden="true" focusable="false" class="checkbox__svg" role="img"
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         viewBox="0 0 448 512">
+                                        <path fill=""
+                                              d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"></path>
+                                    </svg>
+                                    <label class="checkbox_full">Ширина границы меньше 1px</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="main__wrapper main__wrapper_horizontal">
+                <div class="main__card">
+                    <!--Стандартные (без скруглений/с анимацией)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Используется ли здесь анимация?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_bg-svg checkbox_border-thick">
+                                <input type="checkbox" name="svg" checked/>
+                                <div class="checkbox_state">
+                                    <svg focusable="false" class="checkbox__svg" role="img"
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         viewBox="0 0 448 512">
+                                        <path fill=""
+                                              d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"></path>
+                                    </svg>
+                                    <label class="checkbox_full">Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_bg-svg checkbox_border-thick">
+                                <input type="checkbox" name="svg"/>
+                                <div class="checkbox_state">
+                                    <svg focusable="false" class="checkbox__svg" role="img"
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         viewBox="0 0 448 512">
+                                        <path fill=""
+                                              d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"></path>
+                                    </svg>
+                                    <label class="checkbox_full">Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_bg-svg checkbox_border-thick">
+                                <input type="checkbox" name="svg"/>
+                                <div class="checkbox_state">
+                                    <svg focusable="false" class="checkbox__svg" role="img"
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         viewBox="0 0 448 512">
+                                        <path fill=""
+                                              d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"></path>
+                                    </svg>
+                                    <label class="checkbox_full">Да</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Стандартные (скругление/с анимацией)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Скругление углов элементов?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_all-curved checkbox_bg-svg checkbox_border-thick">
+                                <input type="checkbox" checked name="svg"/>
+                                <div class="checkbox_state">
+                                    <svg focusable="false" class="checkbox__svg" role="img"
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         viewBox="0 0 448 512">
+                                        <path fill=""
+                                              d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"></path>
+                                    </svg>
+                                    <label class="checkbox_full">Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_all-curved checkbox_bg-svg checkbox_border-thick">
+                                <input type="checkbox" name="svg"/>
+                                <div class="checkbox_state">
+                                    <svg focusable="false" class="checkbox__svg" role="img"
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         viewBox="0 0 448 512">
+                                        <path fill=""
+                                              d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"></path>
+                                    </svg>
+                                    <label class="checkbox_full">Да</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_all-curved checkbox_bg-svg checkbox_border-thick">
+                                <input type="checkbox" name="svg"/>
+                                <div class="checkbox_state">
+                                    <svg focusable="false" class="checkbox__svg" role="img"
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         viewBox="0 0 448 512">
+                                        <path fill=""
+                                              d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"></path>
+                                    </svg>
+                                    <label class="checkbox_full">Да</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Стандартные (круглая/с анимацией)-->
+                    <div class="card card_flex">
+                        <div class="card__item">
+                            <p class="main__question">Ширина границы внешнего элемента?</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_round checkbox_bg-svg checkbox_border-thick">
+                                <input type="checkbox" checked name="svg"/>
+                                <div class="checkbox_state">
+                                    <svg focusable="false" class="checkbox__svg" role="img"
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         viewBox="0 0 448 512">
+                                        <path fill=""
+                                              d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"></path>
+                                    </svg>
+                                    <label class="checkbox_full">Ширина границы больше 1px</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_round checkbox_bg-svg checkbox_border-thick">
+                                <input type="checkbox" name="svg"/>
+                                <div class="checkbox_state">
+                                    <svg focusable="false" class="checkbox__svg" role="img"
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         viewBox="0 0 448 512">
+                                        <path fill=""
+                                              d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"></path>
+                                    </svg>
+                                    <label class="checkbox_full">Ширина границы больше 1px</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="checkbox checkbox_round checkbox_bg-svg checkbox_border-thick">
+                                <input type="checkbox" name="svg"/>
+                                <div class="checkbox_state">
+                                    <svg focusable="false" class="checkbox__svg" role="img"
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         viewBox="0 0 448 512">
+                                        <path fill=""
+                                              d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"></path>
+                                    </svg>
+                                    <label class="checkbox_full">Ширина границы больше 1px</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+</body>
+</html>
