@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ce81cc8-63e6-4c7c-985a-f65449bf4c60" name="Default Changelist" comment="" />
+    <list default="true" id="6ce81cc8-63e6-4c7c-985a-f65449bf4c60" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/b1e41453f70a2cd484fdaf14d2d802278f71f1ad/styles.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/b1e41453f70a2cd484fdaf14d2d802278f71f1ad/styles.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,11 +18,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gRd6Sf2v8pwv61nufDs6QqVcyJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,12 +37,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../biz_proc" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Webstorm projects\Check_Radio_Select" />
+      <recent name="G:\Webstorm projects\Check_Radio_Select\fonts" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\Webstorm projects\Check_Radio_Select" />
     </key>
@@ -44,25 +62,58 @@
       <updated>1598081162278</updated>
       <workItem from="1598081163371" duration="21651000" />
       <workItem from="1598159182695" duration="36100000" />
-      <workItem from="1598240871367" duration="8744000" />
+      <workItem from="1598240871367" duration="31822000" />
+      <workItem from="1598328088214" duration="29870000" />
+      <workItem from="1598417742277" duration="16398000" />
+      <workItem from="1598450296212" duration="11745000" />
+      <workItem from="1598502524621" duration="30315000" />
+      <workItem from="1598590601973" duration="8506000" />
     </task>
+    <task id="LOCAL-00001" summary="change svg params">
+      <created>1598254325436</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598254325436</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change svg params" />
+    <option name="LAST_COMMIT_MESSAGE" value="change svg params" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="737" y="358" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598293777969">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="737" y="358" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1598293777969" />
+    <state x="636" y="143" key="CommitChangelistDialog2" timestamp="1598254324850">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="636" y="143" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1598254324850" />
     <state x="694" y="335" key="EditFileWatcherDialog" timestamp="1598081302761">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="694" y="335" key="EditFileWatcherDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1598081302761" />
-    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1598110902941">
+    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1598590775054">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1598110902941" />
+    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1598590775054" />
     <state x="533" y="201" key="SettingsEditor" timestamp="1598081299209">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="533" y="201" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1598081299209" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1598254331566">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1598254331566" />
+    <state x="842" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598343207898">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="842" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112@0.0.2048.1112" timestamp="1598343207898" />
   </component>
 </project>
