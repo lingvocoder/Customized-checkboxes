@@ -1,0 +1,35 @@
+@import "../_mixins/mixins";
+@import "../_colors/colors";
+@import "../_variables/variables";
+
+.header {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  &__inner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: $bg-main;
+  }
+
+  &__heading {
+    line-height: 2;
+    font: {
+      weight: 700;
+      size: setFontSizeRem($rf-size, 36);
+      style: normal;
+    };
+  }
+
+  &__sub-heading {
+    line-height: 1;
+    font: {
+      weight: 500;
+      size: setFontSizeRem($rf-size, 24);
+      style: normal;
+    };
+  }
+}

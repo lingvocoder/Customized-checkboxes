@@ -1,0 +1,72 @@
+.checkbox {
+  position: relative;
+  height: inherit;
+  margin-left: 1rem;
+  white-space: nowrap; }
+  .checkbox input:checked ~ .checkbox_state label:after {
+    background-color: #5e6472;
+    transform: scale(0.6); }
+  .checkbox_all-curved .checkbox_state label:before, .checkbox_all-curved .checkbox_state label:after {
+    border-radius: 20%; }
+  .checkbox_inside-curved .checkbox_state label:after {
+    border-radius: 20%; }
+  .checkbox_outside-curved .checkbox_state label:before {
+    border-radius: 20%; }
+  .checkbox_round .checkbox_state label:before, .checkbox_round .checkbox_state label:after {
+    border-radius: 100%; }
+  .checkbox_border-thick .checkbox_state label:before, .checkbox_border-thick .checkbox_state label:after {
+    border-width: calc(1rem / 7);
+    border-width: 2px; }
+  .checkbox_bg-smooth .checkbox_state label:after {
+    transform: scale(0.1);
+    transition: background-color 0.25s 0s, transform 0.25s 0s;
+    animation-timing-function: cubic-bezier(cubic-bezier(0.5, 0, 0.24, 0.94)); }
+  .checkbox_bg-svg .checkbox_state .checkbox__svg {
+    transition: opacity 0.25s 0s;
+    animation-timing-function: cubic-bezier(cubic-bezier(0.5, 0, 0.24, 0.94)); }
+  .checkbox_bg-svg .checkbox_state .checkbox_full:after {
+    transform: scale(1);
+    transition: background-color 0.25s 0s;
+    animation-timing-function: cubic-bezier(cubic-bezier(0.5, 0, 0.24, 0.94)); }
+  .checkbox_bg-svg .checkbox_state .checkbox_full:before {
+    transition: border-color 0.25s 0s;
+    animation-timing-function: cubic-bezier(cubic-bezier(0.5, 0, 0.24, 0.94)); }
+  .checkbox_state .checkbox__svg {
+    position: absolute;
+    display: block;
+    top: calc((100% - 1rem) / 2);
+    left: .52%;
+    content: '';
+    width: 1rem;
+    height: 1rem;
+    opacity: 0;
+    fill: #ffffff;
+    stroke: #ffffff;
+    z-index: 1; }
+  .checkbox_state label {
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0;
+    text-indent: 1.75rem;
+    min-width: calc(1rem + 2px);
+    cursor: pointer; }
+    .checkbox_state label:after, .checkbox_state label:before {
+      position: absolute;
+      display: block;
+      top: calc(((100% - 1rem) / 2) - 8%);
+      left: 0;
+      content: '';
+      width: calc(1rem);
+      height: calc(1rem);
+      border: 1px solid transparent;
+      background-color: transparent;
+      z-index: 0;
+      transform: scale(1.1); }
+    .checkbox_state label:before {
+      border-color: #474747; }
+    .checkbox_state label:after {
+      transform: scale(0.6); }
+
+/*# sourceMappingURL=checkbox.css.map */

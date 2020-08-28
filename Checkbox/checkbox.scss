@@ -1,0 +1,213 @@
+@import "../_mixins/mixins";
+@import "../_colors/colors";
+@import "../_variables/variables";
+
+.checkbox {
+  position: relative;
+  display: inline-block;
+  height: inherit;
+  margin-left: 1rem;
+  line-height: 1;
+  white-space: nowrap;
+
+  &__text {
+    display: inline-block;
+    line-height: 1.2;
+    float: left;
+  }
+
+  & input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 1rem;
+    z-index: $z-index / 10;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  &_state {
+    & .checkbox__text .checkbox__svg {
+      position: absolute;
+      display: block;
+      top: calc((100% - 1rem) / 2);
+      left: 0;
+      content: '';
+      width: 1rem;
+      height: 1rem;
+      opacity: 0;
+      fill: #ffffff;
+      stroke: #ffffff;
+      z-index: $z-index / $z-index;
+      @include margin('left', 1px);
+    }
+
+    & label {
+      position: relative;
+      display: inline-block;
+      text-indent: 1.75rem;
+      min-width: calc(1rem + 2px);
+      cursor: pointer;
+
+      &:after,
+      &:before {
+        position: absolute;
+        content: '';
+        display: block;
+        top: 0;
+        left: 0;
+        width: calc(1rem + 2px);
+        height: calc(1rem + 2px);
+        border: 1px solid transparent;
+        background-color: transparent;
+        z-index: 0;
+        box-sizing: border-box;
+      }
+
+      &:before {
+        border-color: #474747;
+      }
+
+      &:after {
+        transform: scale(.6);
+        transform-origin: center center;
+      }
+    }
+  }
+
+
+  & input {
+    &:checked {
+      & ~ .checkbox_state label:after {
+        background-color: #5e6472;
+        transform: scale(.6);
+      }
+    }
+  }
+
+  &_outside-curved {
+    & .checkbox_state label {
+      &:before {
+        @include border-radius(17%);
+      }
+    }
+  }
+
+  &_all-curved {
+    & .checkbox_state label {
+      &:before,
+      &:after {
+        @include border-radius(17%);
+      }
+    }
+  }
+
+  &_round {
+    & .checkbox_state label {
+      &:before,
+      &:after {
+        @include border-radius(50%);
+      }
+    }
+  }
+
+  &_border-thick {
+    & .checkbox_state label {
+      &:before,
+      &:after {
+        border-width: calc(1rem / 7);
+        border-width: 2px;
+      }
+    }
+
+    & input:checked {
+      & + .checkbox_state label:after {
+        transform: scale(0.4);
+      }
+    }
+  }
+
+  &_inside-curved {
+    & .checkbox_state label {
+      &:after {
+        @include border-radius(17%);
+      }
+    }
+  }
+
+  &_a-shadow {
+    & input:checked {
+      & + .checkbox_state label:before {
+        animation: shadow $transit-time $timing-func;
+      }
+    }
+  }
+
+  &_a-spread {
+    & .checkbox_state label:after {
+      transform: scale(.1);
+      transition: background-color $transit-time 0s, transform $transit-time 0s;
+      animation-timing-function: $timing-func;
+    }
+  }
+
+  &_bg-svg {
+    & input:checked {
+      & + .checkbox_state label .checkbox__text .checkbox__svg {
+        opacity: 1;
+        transition: opacity $transit-time 0s;
+        animation-timing-function: $timing-func;
+      }
+
+      & + .checkbox_state label:after {
+        transform: scale(1);
+        transition: background-color $transit-time 0s;
+        animation-timing-function: $timing-func;
+      }
+
+      & + .checkbox_state label:before {
+        border-color: rgba(71, 71, 71, 0.5);
+        transition: border-color $transit-time 0s;
+        animation-timing-function: $timing-func;
+      }
+    }
+  }
+
+  &_a-full-inside {
+    & input:checked {
+      & + .checkbox_state label:after {
+        transform: scale(1);
+        box-shadow: 0 0 0 3px rgba(189, 195, 199, 0.3);
+        transition: box-shadow $transit-time 0s, transform $transit-time 0s;
+        animation-timing-function: $timing-func;
+      }
+
+      & + .checkbox_state label:before {
+        transform: scale(.1);
+        transition: transform $transit-time 0s;
+        animation-timing-function: $timing-func;
+      }
+    }
+  }
+
+  &_a-full-shadow {
+    & input:checked {
+      & + .checkbox_state label:after {
+        transform: scale(.6);
+        transition: box-shadow $transit-time 0s, transform $transit-time 0s;
+        animation-timing-function: $timing-func;
+      }
+
+      & + .checkbox_state label:before {
+        transform: scale(.9);
+        box-shadow: 0 0 0 3px rgba(85,85,85,.3);
+        border-color: transparent;
+        transition: box-shadow $transit-time 0s, border-color $transit-time 0s,transform $transit-time 0s;
+        animation-timing-function: $timing-func;
+      }
+    }
+  }
+
+}

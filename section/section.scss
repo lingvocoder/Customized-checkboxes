@@ -1,0 +1,42 @@
+@import "../_mixins/mixins";
+@import "../_colors/colors";
+@import "../_variables/variables";
+
+.section {
+  &__list {
+    font: {
+      size: setFontSizeRem($rf-size, 14);
+      weight: 400;
+      style: normal;
+    }
+    padding: 8px 0;
+    list-style: none;
+    @include margin("bottom", 16px);
+  }
+
+  &__feature {
+    line-height: 1.5;
+    text-align: left;
+    @include margin("top", 8px);
+
+    &_av {
+      &:before {
+        content: "\2713";
+        display: inline-block;
+        float: left;
+        padding-right: 4px;
+        color: #15cd72;
+      }
+    }
+
+    &_na {
+      &:before {
+        content: "\2717";
+        display: inline-block;
+        float: left;
+        padding-right: 4px;
+        color: #ce0c2a;
+      }
+    }
+  }
+}

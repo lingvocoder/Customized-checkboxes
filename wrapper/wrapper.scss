@@ -1,0 +1,12 @@
+@import "../_mixins/mixins";
+@import "../_colors/colors";
+@import "../_variables/variables";
+
+.wrapper {
+  width: auto;
+  max-width: 1440px;
+  height: auto;
+  padding: 18px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}

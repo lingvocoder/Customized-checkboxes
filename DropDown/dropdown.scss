@@ -1,0 +1,92 @@
+@import "../_mixins/mixins";
+@import "../_colors/colors";
+@import "../_variables/variables";
+
+.drop-down {
+  &__wrapper {
+    position: relative;
+    display: block;
+    min-width: 240px;
+    max-height: 220px;
+    overflow-y: auto;
+  }
+
+  &__list {
+    position: relative;
+    display: block;
+    min-width: 240px;
+    overflow-y: auto;
+    font: {
+      size: setFontSizeRem($rf-size, 14);
+      weight: 300;
+      style: normal;
+    };
+    max-height: 0;
+    //overflow-y: auto;
+    line-height: 1.5;
+    @include margin('',0);
+    transition: max-height $transit-time 0s $timing-func;
+    &_open {
+      max-height: 220px;
+    }
+  }
+
+  &__feature {
+    display: block;
+    padding: 8px;
+    color: $main-color;
+    & .checkbox {
+      vertical-align: middle;
+      @include margin('left',8px);
+    }
+    & .checkbox__text {
+      line-height: 1.1;
+    }
+  }
+
+  &__btn {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    padding: 8px 0;
+    font: {
+      size: setFontSizeRem($rf-size, 15);
+      weight: 400;
+      style: normal;
+    }
+    outline: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 0;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.5);
+    &:hover:not(.drop-down__btn_active) {
+      background-color: rgba(67, 97, 238, .05);
+      transition: background-color $transit-time 0s $timing-func;
+    }
+    &_active {
+      background-color: rgba(67, 97, 238, .2);
+    }
+  }
+
+  &__text {
+    position: relative;
+    float: left;
+    line-height: 1.5;
+    font-size: setFontSizeRem($rf-size, 16);
+  }
+
+  &__icon {
+    position: relative;
+    float: right;
+    height: 100%;
+    width: auto;
+
+    & svg {
+      display: block;
+      width: 24px;
+      height: 24px;
+      color: currentColor;
+    }
+  }
+}

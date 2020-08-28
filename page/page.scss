@@ -1,0 +1,29 @@
+@import "../_mixins/mixins";
+@import "../_colors/colors";
+@import "../_variables/variables";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  list-style-type: none;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: $bg-main;
+  color: $main-color;
+  font: {
+    family: $main-text;
+    weight: 400;
+    size: $rf-size;
+    style: normal;
+  }
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: $text-shadow;
+  letter-spacing: setFontSizeRem($rf-size, 0.2);
+}

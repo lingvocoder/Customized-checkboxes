@@ -1,0 +1,12 @@
+@import "../_mixins/mixins";
+@import "../_colors/colors";
+@import "../_variables/variables";
+
+.icon {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%
+}
