@@ -527,8 +527,6 @@ body {
   .drop-down__feature .checkbox {
     vertical-align: middle;
     margin-left: 8px; }
-  .drop-down__feature .checkbox__text {
-    line-height: 1.1; }
 .drop-down__btn {
   position: relative;
   width: 100%;
