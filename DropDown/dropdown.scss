@@ -22,10 +22,10 @@
       style: normal;
     };
     max-height: 0;
-    //overflow-y: auto;
     line-height: 1.5;
-    @include margin('',0);
+    @include margin('', 0);
     transition: max-height $transit-time 0s $timing-func;
+
     &_open {
       max-height: 220px;
     }
@@ -35,9 +35,10 @@
     display: block;
     padding: 8px;
     color: $main-color;
+
     & .checkbox {
       vertical-align: middle;
-      @include margin('left',8px);
+      @include margin('left', 8px);
     }
   }
 
@@ -57,10 +58,12 @@
     cursor: pointer;
     border: 0;
     border-bottom: 1px solid rgba(211, 211, 211, 0.5);
+
     &:hover:not(.drop-down__btn_active) {
       background-color: rgba(67, 97, 238, .05);
       transition: background-color $transit-time 0s $timing-func;
     }
+
     &_active {
       background-color: rgba(67, 97, 238, .2);
     }

@@ -1,14 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ce81cc8-63e6-4c7c-985a-f65449bf4c60" name="Default Changelist" comment="">
+    <list default="true" id="6ce81cc8-63e6-4c7c-985a-f65449bf4c60" name="Default Changelist" comment="add Textarea element">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.sass-cache/0d3e1195e8aaaf4f6054741a05c7178708a85300/checkbox.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/0d3e1195e8aaaf4f6054741a05c7178708a85300/checkbox.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/1a66d2b4d8d4baecb7b2e168077691e2d102cff5/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/1a66d2b4d8d4baecb7b2e168077691e2d102cff5/main.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.sass-cache/3ccbdc97b6eaed7a4745bc49d6a9d7972cdd2aaa/dropdown.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/3ccbdc97b6eaed7a4745bc49d6a9d7972cdd2aaa/dropdown.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/b1e41453f70a2cd484fdaf14d2d802278f71f1ad/global.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/b1e41453f70a2cd484fdaf14d2d802278f71f1ad/global.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/f397695bec7913362e82ecb8baf57088f97c90af/_mixins.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/f397695bec7913362e82ecb8baf57088f97c90af/_mixins.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Checkbox/checkbox.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Checkbox/checkbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Checkbox/checkbox.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DropDown/dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/DropDown/dropdown.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DropDown/dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/DropDown/dropdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_mixins/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_mixins/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animations/animations.css" beforeDir="false" afterPath="$PROJECT_DIR$/animations/animations.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/card/card.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/global.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/global.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/header/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/.sass-cache/f397695bec7913362e82ecb8baf57088f97c90af/_mixins.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/icon/.sass-cache/f397695bec7913362e82ecb8baf57088f97c90af/_mixins.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/check-light.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/check-light.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/page/page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section/section.css" beforeDir="false" afterPath="$PROJECT_DIR$/section/section.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wrapper/wrapper.css" beforeDir="false" afterPath="$PROJECT_DIR$/wrapper/wrapper.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,11 +137,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change svg params" />
     <MESSAGE value="add drop-downs/more animations/radio buttons" />
     <MESSAGE value="add drop-downs/more animations/radio buttons/add components folders" />
-    <option name="LAST_COMMIT_MESSAGE" value="add drop-downs/more animations/radio buttons/add components folders" />
+    <MESSAGE value="add Textarea element" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Textarea element" />
   </component>
   <component name="WindowStateProjectService">
     <state x="737" y="358" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598293777969">
@@ -131,6 +172,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1598602390448" />
+    <state x="93" y="93" width="1862" height="926" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1600941424349">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="93" y="93" width="1862" height="926" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1600941424349" />
     <state x="842" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598343207898">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>

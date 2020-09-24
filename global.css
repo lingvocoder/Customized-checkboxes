@@ -64,6 +64,7 @@ body {
     height: auto;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 40px 0;
     border-radius: 3px;
     background-color: #fcfafc;
     border: 1px solid rgba(211, 211, 211, 0.5); }
@@ -410,6 +411,9 @@ body {
     z-index: 2;
     opacity: 0;
     cursor: pointer; }
+    .checkbox input:checked ~ .checkbox_state label:after {
+      background-color: #5e6472;
+      transform: scale(0.6); }
   .checkbox_state .checkbox__text .checkbox__svg {
     position: absolute;
     display: block;
@@ -446,9 +450,6 @@ body {
     .checkbox_state label:after {
       transform: scale(0.6);
       transform-origin: center center; }
-  .checkbox input:checked ~ .checkbox_state label:after {
-    background-color: #5e6472;
-    transform: scale(0.6); }
   .checkbox_outside-curved .checkbox_state label:before {
     border-radius: 17%; }
   .checkbox_all-curved .checkbox_state label:before, .checkbox_all-curved .checkbox_state label:after {
@@ -578,6 +579,175 @@ body {
     overflow: hidden;
     padding: 12px 16px;
     margin-top: 8px; }
+
+.text__wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 70px;
+  padding-top: 6px; }
+.text__input {
+  display: block;
+  outline: none;
+  width: 100%;
+  height: inherit;
+  border: 1px solid #555555;
+  background-color: transparent;
+  caret-color: inherit;
+  font-family: Roboto, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.0714285714rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #555555; }
+  .text__input_message {
+    position: relative;
+    resize: vertical;
+    max-height: 180px;
+    padding: 16px 8px 16px;
+    overflow-y: auto;
+    transition: border .2s 0s, box-shadow .2s 0s;
+    animation-timing-function: cubic-bezier(0.5, 0, 0.24, 0.94);
+    caret-color: #1690f3; }
+    .text__input_message::-webkit-scrollbar {
+      border-radius: 2px;
+      background-color: #ADB5BD;
+      width: 8px; }
+    .text__input_message::-webkit-scrollbar-thumb {
+      border-radius: 4px;
+      background-color: #555555; }
+    .text__input_message::-webkit-scrollbar-track {
+      border-radius: 2px; }
+    .text__input_message::-webkit-scrollbar-corner {
+      background-color: #555555; }
+  .text__input:focus + .text__label {
+    color: #1690f3; }
+.text_outside-curved {
+  border-radius: 4px; }
+  .text_outside-curved + .text__label:before, .text_outside-curved + .text__label:after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    margin-top: 6px;
+    border-top: solid 1px;
+    min-width: 10px;
+    height: 8px;
+    pointer-events: none;
+    box-shadow: inset 0 1px transparent;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    animation-timing-function: cubic-bezier(0.5, 0, 0.24, 0.94); }
+  .text_outside-curved + .text__label:before {
+    margin-right: 4px;
+    border-left: solid 1px transparent;
+    border-top-color: transparent;
+    border-radius: 4px 0; }
+  .text_outside-curved + .text__label:after {
+    flex-grow: 1;
+    margin-left: 4px;
+    border-top-color: transparent;
+    border-right: solid 1px transparent;
+    border-radius: 0 4px; }
+  .text_outside-curved:focus {
+    border-color: #1690f3;
+    border-top-color: transparent;
+    box-shadow: inset 1px 0 #1690f3, inset -1px 0 #1690f3, inset 0 -1px #1690f3;
+    outline: none; }
+    .text_outside-curved:focus + .text__label {
+      line-height: 15px;
+      font-size: 75%; }
+      .text_outside-curved:focus + .text__label:before, .text_outside-curved:focus + .text__label:after {
+        border-top-color: #1690f3;
+        box-shadow: inset 0 1px #1690f3; }
+.text_no-border {
+  border-radius: 4px 4px 0 0;
+  border: 0;
+  border-top: 23px solid transparent;
+  border-bottom: 1px solid #555555;
+  padding: 0 12px 10px;
+  box-shadow: none;
+  background-color: #f5f5f5; }
+  .text_no-border + .text__label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 48px;
+    padding: 7px 12px 0; }
+    .text_no-border + .text__label:after {
+      position: absolute;
+      content: "";
+      left: 0;
+      right: 100%;
+      bottom: 0;
+      background-color: #1690f3;
+      height: 2px;
+      z-index: 10;
+      transition: background-color .25s 0s, right .25s 0s;
+      animation-timing-function: cubic-bezier(0.5, 0, 0.24, 0.94); }
+  .text_no-border:focus {
+    border-top-color: transparent;
+    outline: none; }
+    .text_no-border:focus + .text__label {
+      line-height: 15px;
+      font-size: 75%; }
+      .text_no-border:focus + .text__label:after {
+        right: 0; }
+.text_nothing {
+  border-radius: 0;
+  border: 0;
+  border-top: 23px solid transparent;
+  border-bottom: 1px solid #555555;
+  padding: 0 0 10px;
+  box-shadow: none;
+  background-color: transparent; }
+  .text_nothing + .text__label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 48px;
+    padding: 10px 0 0; }
+    .text_nothing + .text__label:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      display: block;
+      width: 100%;
+      height: 2px;
+      background-color: #1690f3;
+      transform-origin: bottom center;
+      transform: scaleX(0);
+      transition: transform 0.2s 0s;
+      animation-timing-function: cubic-bezier(0.5, 0, 0.24, 0.94); }
+  .text_nothing:focus {
+    outline: none; }
+    .text_nothing:focus + .text__label {
+      line-height: 15px;
+      font-size: 75%; }
+      .text_nothing:focus + .text__label:after {
+        transform: scaleX(1); }
+.text__label {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  text-align: left;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-family: Roboto, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 0.9285714286rem;
+  font-weight: 500;
+  line-height: 70px;
+  color: #555555;
+  transition: color 0.2s, font-size 0.2s, line-height 0.2s;
+  animation-timing-function: cubic-bezier(0.5, 0, 0.24, 0.94);
+  pointer-events: none;
+  cursor: text; }
 
 @keyframes shadow {
   0% {

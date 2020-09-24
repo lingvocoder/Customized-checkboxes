@@ -1,13 +1,14 @@
 .drop-down__btn {
-  display: block;
-  width: 100%;
-  text-align: left;
-  padding: 22px 20px 22px 0;
-  letter-spacing: .04rem;
-  font-size: 15px;
-  text-transform: uppercase;
-  cursor: pointer;
-  position: relative;
-  border: 1px solid rgba(211, 211, 211, 0.5); }
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 22px 20px 22px 0;
+    letter-spacing: .04rem;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid rgba(211, 211, 211, 0.5);
+}
 
 /*# sourceMappingURL=dropdown.css.map */

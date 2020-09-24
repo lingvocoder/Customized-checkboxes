@@ -26,7 +26,24 @@
     z-index: $z-index / 10;
     opacity: 0;
     cursor: pointer;
+
+    &:checked {
+      & ~ .checkbox_state label:after {
+        background-color: #5e6472;
+        transform: scale(.6);
+      }
+    }
   }
+
+  //.sr-only {
+  //  clip: rect(0 0 0 0);
+  //  clip-path: inset(100%);
+  //  height: 1px;
+  //  overflow: hidden;
+  //  position: absolute;
+  //  white-space: nowrap;
+  //  width: 1px;
+  //}
 
   &_state {
     & .checkbox__text .checkbox__svg {
@@ -73,15 +90,6 @@
       &:after {
         transform: scale(.6);
         transform-origin: center center;
-      }
-    }
-  }
-
-  & input {
-    &:checked {
-      & ~ .checkbox_state label:after {
-        background-color: #5e6472;
-        transform: scale(.6);
       }
     }
   }
@@ -201,9 +209,9 @@
 
       & + .checkbox_state label:before {
         transform: scale(.9);
-        box-shadow: 0 0 0 3px rgba(85,85,85,.3);
+        box-shadow: 0 0 0 3px rgba(85, 85, 85, .3);
         border-color: transparent;
-        transition: box-shadow $transit-time 0s, border-color $transit-time 0s,transform $transit-time 0s;
+        transition: box-shadow $transit-time 0s, border-color $transit-time 0s, transform $transit-time 0s;
         animation-timing-function: $timing-func;
       }
     }
