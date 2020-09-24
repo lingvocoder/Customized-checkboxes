@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ce81cc8-63e6-4c7c-985a-f65449bf4c60" name="Default Changelist" comment="add Textarea element">
-      <change afterPath="$PROJECT_DIR$/Textarea/textarea.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textarea/textarea.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textarea/textarea.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Textarea/textarea.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600942213378</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add Textarea element">
+      <created>1600952461388</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600952461388</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,10 +174,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="533" y="201" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1598081299209" />
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1600942228892">
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1600952469669">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1600942228892" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1600952469669" />
     <state x="93" y="93" width="1862" height="926" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1600941424349">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
