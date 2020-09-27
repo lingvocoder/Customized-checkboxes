@@ -20,9 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ce81cc8-63e6-4c7c-985a-f65449bf4c60" name="Default Changelist" comment="add global.css">
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/b1e41453f70a2cd484fdaf14d2d802278f71f1ad/global.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/b1e41453f70a2cd484fdaf14d2d802278f71f1ad/global.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/f59a92cdbb797008bd47cb126d77be2e4acff91d/textarea.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/f59a92cdbb797008bd47cb126d77be2e4acff91d/textarea.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textarea/textarea.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Textarea/textarea.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/global.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +60,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="G:\Webstorm projects\Check_Radio_Select\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -86,7 +92,9 @@
       <workItem from="1598725850937" duration="357000" />
       <workItem from="1598771385373" duration="572000" />
       <workItem from="1599128579736" duration="1354000" />
-      <workItem from="1600953429450" duration="3661000" />
+      <workItem from="1600953429450" duration="5032000" />
+      <workItem from="1601130997223" duration="10646000" />
+      <workItem from="1601220607594" duration="4026000" />
     </task>
     <task id="LOCAL-00001" summary="change svg params">
       <created>1598254325436</created>
@@ -180,14 +188,14 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="694" y="335" key="EditFileWatcherDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1598081302761" />
-    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1598771958711">
+    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1601131509650">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1598771958711" />
-    <state x="533" y="201" key="SettingsEditor" timestamp="1598081299209">
+    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1601131509650" />
+    <state x="533" y="201" key="SettingsEditor" timestamp="1601227329453">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="533" y="201" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1598081299209" />
+    <state x="533" y="201" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1601227329453" />
     <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1600954563422">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>

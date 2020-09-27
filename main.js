@@ -1,8 +1,14 @@
+document.addEventListener("DOMContentLoaded", function () {
+  let counters = Array.from(document.getElementsByClassName("text__counter"));
+  counters.forEach((counter) => {
+    counter.textContent = "280";
+  });
+});
+
 function openSidebarMenu() {
   let dropDownBtn = Array.from(
     document.getElementsByClassName("drop-down__btn")
   );
-
   dropDownBtn.forEach((btn) => {
     btn.addEventListener("click", function (ev) {
       dropDownBtn.forEach((btn) => {
@@ -57,3 +63,31 @@ function openSidebarMenu() {
 }
 
 openSidebarMenu();
+
+let messages = Array.from(document.getElementsByClassName("limited"));
+messages.forEach((msg) => {
+  msg.addEventListener("input", function () {
+    let counter = msg.nextElementSibling.firstElementChild;
+    let limit = 280;
+    let res = limit - Number(msg.value.length);
+    counter.textContent = String(res);
+    if (msg.value.length > 280) {
+      counter.classList.add("text__counter_invalid");
+      counter.classList.remove("text__counter_valid");
+      msg.classList.add("text__validate_fail");
+      msg.nextElementSibling.textContent =
+        "длина сообщения превышает лимит на:";
+      msg.nextElementSibling.insertAdjacentElement("beforeend", counter);
+    } else if (msg.value.length === 0) {
+      msg.classList.remove("text__validate_fail");
+      msg.nextElementSibling.textContent = "максимальная длина сообщения:";
+      msg.nextElementSibling.insertAdjacentElement("beforeend", counter);
+    } else {
+      counter.classList.remove("text__counter_invalid");
+      counter.classList.add("text__counter_valid");
+      msg.classList.remove("text__validate_fail");
+      msg.nextElementSibling.textContent = "максимальная длина сообщения:";
+      msg.nextElementSibling.insertAdjacentElement("beforeend", counter);
+    }
+  });
+});

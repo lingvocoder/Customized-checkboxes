@@ -11,6 +11,26 @@
     padding-top: 6px;
   }
 
+  &__counter {
+    height: inherit;
+    line-height: inherit;
+    font: {
+      family: Roboto, "Helvetica Neue", Helvetica, sans-serif;
+      size: setFontSizeRem($rf-size, 13);
+      weight: 500;
+    }
+    transition: color 0.2s 0s, opacity 0.2s;
+    animation-timing-function: $timing-func;
+
+    &_valid {
+      color: $main-color;
+    }
+
+    &_invalid {
+      color: #FF5F42;
+    }
+  }
+
   &__input {
     display: block;
     outline: none;
@@ -60,6 +80,10 @@
     &:focus {
       & + .text__label {
         color: #1690f3;
+
+        & > .text__counter:not(.text__counter_invalid) {
+          color: #1690f3;
+        }
       }
     }
   }
@@ -109,10 +133,41 @@
         line-height: 15px;
         font-size: 75%;
 
+        & > .text__counter {
+          line-height: inherit;
+          font-size: inherit;
+        }
+
         &:before,
         &:after {
           border-top-color: #1690f3;
           box-shadow: inset 0 1px #1690f3;
+        }
+      }
+    }
+  }
+
+  &_outside-curved.text__validate_fail {
+    &:focus {
+      border-color: #FF5F42;
+      border-top-color: transparent;
+      box-shadow: inset 1px 0 #FF5F42, inset -1px 0 #FF5F42, inset 0 -1px #FF5F42;
+      outline: none;
+
+      & + .text__label {
+        color: #FF5F42;
+        line-height: 15px;
+        font-size: 75%;
+
+        & > .text__counter {
+          line-height: inherit;
+          font-size: inherit;
+        }
+
+        &:before,
+        &:after {
+          border-top-color: #FF5F42;
+          box-shadow: inset 0 1px #FF5F42;
         }
       }
     }
@@ -159,9 +214,24 @@
         line-height: 15px;
         font-size: 75%;
 
+        & > .text__counter {
+          line-height: inherit;
+          font-size: inherit;
+        }
+
         &:after {
           right: 0;
         }
+      }
+    }
+  }
+
+  &_no-border.text__validate_fail {
+    & + .text__label {
+      color: #FF5F42;
+
+      &:after {
+        background-color: #FF5F42;
       }
     }
   }
@@ -208,13 +278,26 @@
         line-height: 15px;
         font-size: 75%;
 
+        & > .text__counter {
+          line-height: inherit;
+          font-size: inherit;
+        }
+
         &:after {
           transform: scaleX(1);
         }
       }
     }
   }
+  &_nothing.text__validate_fail {
+    & + .text__label {
+      color: #FF5F42;
 
+      &:after {
+        background-color: #FF5F42;
+      }
+    }
+  }
   &__label {
     position: absolute;
     display: flex;
