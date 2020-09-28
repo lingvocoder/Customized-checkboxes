@@ -76,17 +76,17 @@ messages.forEach((msg) => {
       counter.classList.remove("text__counter_valid");
       msg.classList.add("text__validate_fail");
       msg.nextElementSibling.textContent =
-        "длина сообщения превышает лимит на:";
+        "длина сообщения превышает лимит: ";
       msg.nextElementSibling.insertAdjacentElement("beforeend", counter);
     } else if (msg.value.length === 0) {
       msg.classList.remove("text__validate_fail");
-      msg.nextElementSibling.textContent = "максимальная длина сообщения:";
+      msg.nextElementSibling.textContent = "максимальная длина сообщения: ";
       msg.nextElementSibling.insertAdjacentElement("beforeend", counter);
     } else {
       counter.classList.remove("text__counter_invalid");
       counter.classList.add("text__counter_valid");
       msg.classList.remove("text__validate_fail");
-      msg.nextElementSibling.textContent = "максимальная длина сообщения:";
+      msg.nextElementSibling.textContent = "максимальная длина сообщения: ";
       msg.nextElementSibling.insertAdjacentElement("beforeend", counter);
     }
   });

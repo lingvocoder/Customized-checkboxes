@@ -19,14 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ce81cc8-63e6-4c7c-985a-f65449bf4c60" name="Default Changelist" comment="add global.css">
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+    <list default="true" id="6ce81cc8-63e6-4c7c-985a-f65449bf4c60" name="Default Changelist" comment="add counters to textarea elements">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/f59a92cdbb797008bd47cb126d77be2e4acff91d/textarea.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/f59a92cdbb797008bd47cb126d77be2e4acff91d/textarea.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Textarea/textarea.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Textarea/textarea.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/global.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +29,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -94,7 +90,8 @@
       <workItem from="1599128579736" duration="1354000" />
       <workItem from="1600953429450" duration="5032000" />
       <workItem from="1601130997223" duration="10646000" />
-      <workItem from="1601220607594" duration="4026000" />
+      <workItem from="1601220607594" duration="4914000" />
+      <workItem from="1601268747094" duration="1316000" />
     </task>
     <task id="LOCAL-00001" summary="change svg params">
       <created>1598254325436</created>
@@ -145,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600954556852</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add counters to textarea elements">
+      <created>1601227512588</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1601227512588</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +173,8 @@
     <MESSAGE value="add drop-downs/more animations/radio buttons/add components folders" />
     <MESSAGE value="add Textarea element" />
     <MESSAGE value="add global.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="add global.css" />
+    <MESSAGE value="add counters to textarea elements" />
+    <option name="LAST_COMMIT_MESSAGE" value="add counters to textarea elements" />
   </component>
   <component name="WindowStateProjectService">
     <state x="737" y="358" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598293777969">
@@ -196,10 +201,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="533" y="201" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1601227329453" />
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1600954563422">
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1601227517838">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1600954563422" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1601227517838" />
     <state x="93" y="93" width="1862" height="926" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1600953951843">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
