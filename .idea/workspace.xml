@@ -20,88 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ce81cc8-63e6-4c7c-985a-f65449bf4c60" name="Default Changelist" comment="improve counter alert message">
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/0d3e1195e8aaaf4f6054741a05c7178708a85300/checkbox.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/0d3e1195e8aaaf4f6054741a05c7178708a85300/checkbox.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/1a66d2b4d8d4baecb7b2e168077691e2d102cff5/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/1a66d2b4d8d4baecb7b2e168077691e2d102cff5/main.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/367f7728582e1fb0fa4e2eb53e5301d3c4a5ec2f/_variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/367f7728582e1fb0fa4e2eb53e5301d3c4a5ec2f/_variables.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/3ccbdc97b6eaed7a4745bc49d6a9d7972cdd2aaa/dropdown.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/3ccbdc97b6eaed7a4745bc49d6a9d7972cdd2aaa/dropdown.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/404098975b33221f76e482b32254e8eef9f880aa/card.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/404098975b33221f76e482b32254e8eef9f880aa/card.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/4e639532d870ff7f273a5e18195909c630482468/wrapper.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/4e639532d870ff7f273a5e18195909c630482468/wrapper.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/f397695bec7913362e82ecb8baf57088f97c90af/_mixins.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/f397695bec7913362e82ecb8baf57088f97c90af/_mixins.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.sass-cache/f59a92cdbb797008bd47cb126d77be2e4acff91d/textarea.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/f59a92cdbb797008bd47cb126d77be2e4acff91d/textarea.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Checkbox/.sass-cache/0d3e1195e8aaaf4f6054741a05c7178708a85300/checkbox.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/Checkbox/.sass-cache/0d3e1195e8aaaf4f6054741a05c7178708a85300/checkbox.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Checkbox/.sass-cache/367f7728582e1fb0fa4e2eb53e5301d3c4a5ec2f/_variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/Checkbox/.sass-cache/367f7728582e1fb0fa4e2eb53e5301d3c4a5ec2f/_variables.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Checkbox/.sass-cache/f397695bec7913362e82ecb8baf57088f97c90af/_mixins.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/Checkbox/.sass-cache/f397695bec7913362e82ecb8baf57088f97c90af/_mixins.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Checkbox/checkbox.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Checkbox/checkbox.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Checkbox/checkbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Checkbox/checkbox.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropDown/.sass-cache/367f7728582e1fb0fa4e2eb53e5301d3c4a5ec2f/_variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/DropDown/.sass-cache/367f7728582e1fb0fa4e2eb53e5301d3c4a5ec2f/_variables.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropDown/.sass-cache/3ccbdc97b6eaed7a4745bc49d6a9d7972cdd2aaa/dropdown.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/DropDown/.sass-cache/3ccbdc97b6eaed7a4745bc49d6a9d7972cdd2aaa/dropdown.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropDown/.sass-cache/f397695bec7913362e82ecb8baf57088f97c90af/_mixins.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/DropDown/.sass-cache/f397695bec7913362e82ecb8baf57088f97c90af/_mixins.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropDown/dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/DropDown/dropdown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropDown/dropdown.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/DropDown/dropdown.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DropDown/dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/DropDown/dropdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Textarea/.sass-cache/367f7728582e1fb0fa4e2eb53e5301d3c4a5ec2f/_variables.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Textarea/.sass-cache/4e2da5fb0c6982b9f4c371a2bb1d59edc325faaa/_colors.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Textarea/.sass-cache/f397695bec7913362e82ecb8baf57088f97c90af/_mixins.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Textarea/.sass-cache/f59a92cdbb797008bd47cb126d77be2e4acff91d/textarea.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Textarea/textarea.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Textarea/textarea.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textarea/.sass-cache/f59a92cdbb797008bd47cb126d77be2e4acff91d/textarea.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/Textarea/.sass-cache/f59a92cdbb797008bd47cb126d77be2e4acff91d/textarea.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textarea/textarea.css" beforeDir="false" afterPath="$PROJECT_DIR$/Textarea/textarea.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Textarea/textarea.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Textarea/textarea.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_mixins/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_mixins/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_variables/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_variables/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animations/.sass-cache/7705d03f575708d015042e44886808d61963232f/animations.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/animations/.sass-cache/7705d03f575708d015042e44886808d61963232f/animations.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animations/animations.css" beforeDir="false" afterPath="$PROJECT_DIR$/animations/animations.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animations/animations.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/animations/animations.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/.sass-cache/404098975b33221f76e482b32254e8eef9f880aa/card.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/card/.sass-cache/404098975b33221f76e482b32254e8eef9f880aa/card.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/card/card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/card.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/card/card.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/card/card.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/global.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header/.sass-cache/b4e4d74dd739ad09d49542434081937f9fa75d17/header.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/header/.sass-cache/b4e4d74dd739ad09d49542434081937f9fa75d17/header.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/header/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header/header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/header/header.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/.sass-cache/367f7728582e1fb0fa4e2eb53e5301d3c4a5ec2f/_variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/icon/.sass-cache/367f7728582e1fb0fa4e2eb53e5301d3c4a5ec2f/_variables.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/.sass-cache/f397695bec7913362e82ecb8baf57088f97c90af/_mixins.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/icon/.sass-cache/f397695bec7913362e82ecb8baf57088f97c90af/_mixins.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/.sass-cache/1a66d2b4d8d4baecb7b2e168077691e2d102cff5/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/main/.sass-cache/1a66d2b4d8d4baecb7b2e168077691e2d102cff5/main.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/prettier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/prettier.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/prettier.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/bin-prettier.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/doc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-angular.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-babel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-flow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-glimmer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-graphql.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-markdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-postcss.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-typescript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/parser-yaml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/standalone.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prettier/third-party.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/.sass-cache/367f7728582e1fb0fa4e2eb53e5301d3c4a5ec2f/_variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/page/.sass-cache/367f7728582e1fb0fa4e2eb53e5301d3c4a5ec2f/_variables.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/.sass-cache/f397695bec7913362e82ecb8baf57088f97c90af/_mixins.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/page/.sass-cache/f397695bec7913362e82ecb8baf57088f97c90af/_mixins.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/page/page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/page.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/page/page.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section/.sass-cache/4368185b73e8dc5f26816afab5904bfd4f252e5d/section.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/section/.sass-cache/4368185b73e8dc5f26816afab5904bfd4f252e5d/section.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section/section.css" beforeDir="false" afterPath="$PROJECT_DIR$/section/section.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section/section.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/section/section.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wrapper/.sass-cache/4e639532d870ff7f273a5e18195909c630482468/wrapper.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/wrapper/.sass-cache/4e639532d870ff7f273a5e18195909c630482468/wrapper.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wrapper/wrapper.css" beforeDir="false" afterPath="$PROJECT_DIR$/wrapper/wrapper.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wrapper/wrapper.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wrapper/wrapper.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wrapper/wrapper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wrapper/wrapper.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +96,7 @@
       <workItem from="1601130997223" duration="10646000" />
       <workItem from="1601220607594" duration="4914000" />
       <workItem from="1601268747094" duration="4665000" />
-      <workItem from="1601279147214" duration="5292000" />
+      <workItem from="1601279147214" duration="5609000" />
     </task>
     <task id="LOCAL-00001" summary="change svg params">
       <created>1598254325436</created>
