@@ -1,1 +1,25 @@
+.section__list {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  padding: 8px 0;
+  list-style: none;
+  margin-bottom: 16px; }
+.section__feature {
+  line-height: 1.5;
+  text-align: left;
+  margin-top: 8px; }
+  .section__feature_av:before {
+    content: "\2713";
+    display: inline-block;
+    float: left;
+    padding-right: 4px;
+    color: #15cd72; }
+  .section__feature_na:before {
+    content: "\2717";
+    display: inline-block;
+    float: left;
+    padding-right: 4px;
+    color: #ce0c2a; }
+
 /*# sourceMappingURL=section.css.map */

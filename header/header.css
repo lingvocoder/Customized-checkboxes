@@ -1,1 +1,22 @@
+.header {
+  position: relative;
+  width: 100%;
+  height: auto; }
+  .header__inner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #fcfafc; }
+  .header__heading {
+    line-height: 2;
+    font-weight: 700;
+    font-size: 2.5714285714rem;
+    font-style: normal; }
+  .header__sub-heading {
+    line-height: 1;
+    font-weight: 500;
+    font-size: 1.7142857143rem;
+    font-style: normal; }
+
 /*# sourceMappingURL=header.css.map */

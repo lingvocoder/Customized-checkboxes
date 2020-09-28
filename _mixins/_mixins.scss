@@ -332,6 +332,12 @@
   } @else if ($side == 'right-top') {
     border-bottom-right-radius: $radius;
     border-top-right-radius: $radius;
+  } @else if ($side == 'left-top') {
+    border-bottom-right-radius: $radius;
+    border-top-right-radius: $radius;
+  } @else if ($side == 'left-bottom') {
+    border-bottom-right-radius: $radius;
+    border-top-right-radius: $radius;
   } @else {
     border-radius: $radius;
   }
@@ -349,7 +355,7 @@
   $border-top-left-radius: 0;
   $border-bottom-left-radius: 0;
   $border-bottom-right-radius: 0;
-  $defaultRadii: ($border-top-right-radius, $border-top-left-radius, $border-bottom-left-radius, $border-bottom-right-radius);
+  $defaultRadii: ($border-top-left-radius, $border-top-right-radius, $border-bottom-left-radius, $border-bottom-right-radius);
 
   $setRadii: ();
   @for $i from 1 through length($defaultRadii) {

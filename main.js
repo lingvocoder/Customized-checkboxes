@@ -80,13 +80,13 @@ messages.forEach((msg) => {
       msg.nextElementSibling.insertAdjacentElement("beforeend", counter);
     } else if (msg.value.length === 0) {
       msg.classList.remove("text__validate_fail");
-      msg.nextElementSibling.textContent = "максимальная длина сообщения: ";
+      msg.nextElementSibling.textContent = "длина сообщения (символов): ";
       msg.nextElementSibling.insertAdjacentElement("beforeend", counter);
     } else {
       counter.classList.remove("text__counter_invalid");
       counter.classList.add("text__counter_valid");
       msg.classList.remove("text__validate_fail");
-      msg.nextElementSibling.textContent = "максимальная длина сообщения: ";
+      msg.nextElementSibling.textContent = "длина сообщения (символов): ";
       msg.nextElementSibling.insertAdjacentElement("beforeend", counter);
     }
   });

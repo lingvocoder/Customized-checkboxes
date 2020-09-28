@@ -15,8 +15,8 @@
 
     &_horizontal {
       padding: 20px 0;
-      margin-top: 50px;
-      margin-bottom: 50px;
+      @include margin('top', 50px);
+      @include margin('bottom', 50px);
     }
 
     &_list {
@@ -33,7 +33,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     padding: 40px 0;
-    @include border-radius(3px);
+    border-radius:setBorderRadius(3px);
     background-color: $bg-main;
     border: 1px solid rgba(211, 211, 211, 0.5);
   }

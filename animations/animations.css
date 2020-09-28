@@ -1,1 +1,7 @@
+@keyframes shadow {
+  0% {
+    box-shadow: 0 0 0 0 #bdc3c7; }
+  100% {
+    box-shadow: 0 0 0 1rem rgba(189, 195, 199, 0); } }
+
 /*# sourceMappingURL=animations.css.map */

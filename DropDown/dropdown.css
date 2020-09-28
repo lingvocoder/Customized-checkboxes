@@ -1,14 +1,65 @@
+.drop-down__wrapper {
+  position: relative;
+  display: block;
+  min-width: 240px;
+  max-height: 220px;
+  overflow-y: auto; }
+.drop-down__list {
+  position: relative;
+  display: block;
+  min-width: 240px;
+  overflow-y: auto;
+  font-size: 1rem;
+  font-weight: 300;
+  font-style: normal;
+  max-height: 0;
+  line-height: 1.5;
+  margin: 0;
+  transition: max-height 0.25s 0s;
+  animation-timing-function: cubic-bezier(0.5, 0, 0.24, 0.94); }
+  .drop-down__list_open {
+    max-height: 220px; }
+.drop-down__feature {
+  display: block;
+  padding: 8px;
+  color: #555555; }
+  .drop-down__feature .checkbox {
+    vertical-align: middle;
+    margin-left: 8px; }
 .drop-down__btn {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  padding: 8px 0;
+  font-size: 1.0714285714rem;
+  font-weight: 400;
+  font-style: normal;
+  outline: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 0;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.5); }
+  .drop-down__btn:hover:not(.drop-down__btn_active) {
+    background-color: rgba(67, 97, 238, 0.05);
+    transition: background-color 0.25s 0s;
+    animation-timing-function: cubic-bezier(0.5, 0, 0.24, 0.94); }
+  .drop-down__btn_active {
+    background-color: rgba(67, 97, 238, 0.2); }
+.drop-down__text {
+  position: relative;
+  float: left;
+  line-height: 1.5;
+  font-size: 1.1428571429rem; }
+.drop-down__icon {
+  position: relative;
+  float: right;
+  height: 100%;
+  width: auto; }
+  .drop-down__icon svg {
     display: block;
-    width: 100%;
-    text-align: left;
-    padding: 22px 20px 22px 0;
-    letter-spacing: .04rem;
-    font-size: 15px;
-    text-transform: uppercase;
-    cursor: pointer;
-    position: relative;
-    border: 1px solid rgba(211, 211, 211, 0.5);
-}
+    width: 24px;
+    height: 24px;
+    color: currentColor; }
 
 /*# sourceMappingURL=dropdown.css.map */

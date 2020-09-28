@@ -6,7 +6,7 @@
   position: relative;
   display: inline-block;
   height: inherit;
-  margin-left: 1rem;
+  @include margin('left', 1rem);
   line-height: 1;
   white-space: nowrap;
 
@@ -97,7 +97,7 @@
   &_outside-curved {
     & .checkbox_state label {
       &:before {
-        @include border-radius(17%);
+        border-radius:setBorderRadius(17%);
       }
     }
   }
@@ -106,7 +106,7 @@
     & .checkbox_state label {
       &:before,
       &:after {
-        @include border-radius(17%);
+        border-radius:setBorderRadius(17%);
       }
     }
   }
@@ -115,7 +115,7 @@
     & .checkbox_state label {
       &:before,
       &:after {
-        @include border-radius(50%);
+        border-radius:setBorderRadius(50%);
       }
     }
   }
@@ -139,7 +139,7 @@
   &_inside-curved {
     & .checkbox_state label {
       &:after {
-        @include border-radius(17%);
+        border-radius:setBorderRadius(17%);
       }
     }
   }

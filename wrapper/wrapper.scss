@@ -7,6 +7,6 @@
   max-width: 1440px;
   height: auto;
   padding: 18px;
-  margin: 0 auto;
+  @include margin('auto',0);
   background-color: #ffffff;
 }

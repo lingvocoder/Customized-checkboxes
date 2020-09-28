@@ -1,1 +1,18 @@
+.card {
+  position: relative;
+  flex: 1 1 300px;
+  padding: 10px 20px;
+  text-align: left;
+  height: 100%; }
+  .card_flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start; }
+  .card__item {
+    position: relative;
+    overflow: hidden;
+    padding: 12px 16px;
+    margin-top: 8px; }
+
 /*# sourceMappingURL=card.css.map */

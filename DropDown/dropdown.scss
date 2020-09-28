@@ -24,7 +24,8 @@
     max-height: 0;
     line-height: 1.5;
     @include margin('', 0);
-    transition: max-height $transit-time 0s $timing-func;
+    transition: max-height $transit-time 0s;
+    animation-timing-function: $timing-func;
 
     &_open {
       max-height: 220px;
@@ -61,7 +62,8 @@
 
     &:hover:not(.drop-down__btn_active) {
       background-color: rgba(67, 97, 238, .05);
-      transition: background-color $transit-time 0s $timing-func;
+      transition: background-color $transit-time 0s;
+      animation-timing-function: $timing-func;
     }
 
     &_active {
