@@ -21,11 +21,16 @@
   <component name="ChangeListManager">
     <list default="true" id="6ce81cc8-63e6-4c7c-985a-f65449bf4c60" name="Default Changelist" comment="improve counter alert message">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/f59a92cdbb797008bd47cb126d77be2e4acff91d/textarea.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/f59a92cdbb797008bd47cb126d77be2e4acff91d/textarea.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Textarea/.sass-cache/f59a92cdbb797008bd47cb126d77be2e4acff91d/textarea.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/Textarea/.sass-cache/f59a92cdbb797008bd47cb126d77be2e4acff91d/textarea.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Textarea/textarea.css" beforeDir="false" afterPath="$PROJECT_DIR$/Textarea/textarea.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Textarea/textarea.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Textarea/textarea.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/1a66d2b4d8d4baecb7b2e168077691e2d102cff5/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/1a66d2b4d8d4baecb7b2e168077691e2d102cff5/main.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/b1e41453f70a2cd484fdaf14d2d802278f71f1ad/global.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/b1e41453f70a2cd484fdaf14d2d802278f71f1ad/global.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/global.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/.sass-cache/1a66d2b4d8d4baecb7b2e168077691e2d102cff5/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/main/.sass-cache/1a66d2b4d8d4baecb7b2e168077691e2d102cff5/main.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +101,27 @@
       <workItem from="1601130997223" duration="10646000" />
       <workItem from="1601220607594" duration="4914000" />
       <workItem from="1601268747094" duration="4665000" />
-      <workItem from="1601279147214" duration="5609000" />
+      <workItem from="1601279147214" duration="8505000" />
+      <workItem from="1601317257474" duration="706000" />
+      <workItem from="1601399147129" duration="752000" />
+      <workItem from="1601461576898" duration="2006000" />
+      <workItem from="1601972119858" duration="2630000" />
+      <workItem from="1602010157612" duration="623000" />
+      <workItem from="1602062842222" duration="1332000" />
+      <workItem from="1602150608986" duration="270000" />
+      <workItem from="1602150894493" duration="889000" />
+      <workItem from="1602164435570" duration="2100000" />
+      <workItem from="1602246345204" duration="2436000" />
+      <workItem from="1602318810666" duration="964000" />
+      <workItem from="1602324189041" duration="5160000" />
+      <workItem from="1602366954919" duration="3669000" />
+      <workItem from="1602421360480" duration="3913000" />
+      <workItem from="1602513609078" duration="420000" />
+      <workItem from="1602615851612" duration="178000" />
+      <workItem from="1602618323606" duration="18000" />
+      <workItem from="1602622080073" duration="131000" />
+      <workItem from="1602627178035" duration="757000" />
+      <workItem from="1602939837054" duration="8887000" />
     </task>
     <task id="LOCAL-00001" summary="change svg params">
       <created>1598254325436</created>
@@ -206,10 +231,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="694" y="335" width="660" height="677" key="EditFileWatcherDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1601280990943" />
-    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1601131509650">
+    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1602514032345">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1601131509650" />
+    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1602514032345" />
     <state x="533" y="201" key="SettingsEditor" timestamp="1601280992932">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
