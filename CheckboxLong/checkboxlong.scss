@@ -10,7 +10,28 @@
   line-height: 1;
   padding: 4px 8px;
   white-space: nowrap;
-  border: $border-slim solid #93a1a7;
+  border: $border-slim solid #d3d3d3;
+
+  &_a-spread {
+    padding: 0;
+  }
+
+  &_circled {
+    & .long-checkbox__label:after {
+      position: absolute;
+      content: '';
+      width: 22px;
+      height: 22px;
+      top: calc(100% - 10px);
+      right: -5px;
+      border: 1px solid transparent;
+      background-color: transparent;
+      border-radius: 50%;
+      transform: translateY(-50%);
+      transition: border-color $transit-time 0s;
+      animation-timing-function: $timing-func;
+    }
+  }
 
   &__text {
     display: inline-block;
@@ -32,6 +53,7 @@
     width: 100%;
     cursor: pointer;
     height: 20px;
+    z-index: $z-index * 3;
 
     &:before {
       content: '';
@@ -44,6 +66,27 @@
       transition: background-color $transit-time 0s;
       animation-timing-function: $timing-func;
     }
+
+    &_a-spread {
+      height: 28px;
+      padding: 4px 8px;
+      overflow: hidden;
+
+      &:before {
+        content: '';
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        top: 50%;
+        left: 50%;
+        border-radius: 50%;
+        background-color: transparent;
+        transform: translate(-50%, -50%) scale3d(1, 1, 1);
+        transition: transform $transit-time 0s;
+        animation-timing-function: $timing-func;
+        opacity: 0;
+      }
+    }
   }
 
   &__svg {
@@ -55,8 +98,8 @@
     width: setFontSizeRem($rf-size, 14);
     height: setFontSizeRem($rf-size, 15);
     opacity: 0;
-    fill: #ffffff;
-    stroke: #ffffff;
+    fill: #f1f3f5;
+    stroke: #f1f3f5;
     stroke-width: 2px;
     z-index: $z-index / $z-index;
     @include margin('left', 1px);
@@ -69,9 +112,10 @@
     width: 100%;
     height: 100%;
     min-width: 1rem;
-    z-index: $z-index / 10;
+    z-index: $z-index * 4;
     opacity: 0;
     cursor: pointer;
+
 
   }
 
@@ -93,6 +137,28 @@
       & + .long-checkbox_state label:before {
         background-color: #f1f3f5;
       }
+
+      & + .long-checkbox_state label:after {
+        border-color: #d3d3d3;
+      }
+    }
+  }
+
+  &_a-spread {
+    & input:checked {
+      & + .long-checkbox_state .long-checkbox__label .long-checkbox__svg {
+        opacity: 1;
+        transition: fill $transit-time 0.125s, stroke $transit-time 0.125s;
+        animation-timing-function: $timing-func;
+        fill: #0094d8;
+        stroke: #0094d8;
+      }
+
+      & + .long-checkbox_state .long-checkbox__label:before {
+        transform: translate(-50%, -50%) scale3d(56, 56, 1);
+        opacity: 1;
+      }
+
     }
   }
 

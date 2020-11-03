@@ -1,0 +1,31 @@
+@import "../_mixins/mixins";
+@import "../_colors/colors";
+@import "../_variables/variables";
+
+.select {
+  background: whiteSmoke url(./img/grey-disclosure-arrow-up-down.png) no-repeat scroll;
+  background-position-x: 166px;
+  border-radius: 2px;
+  font:{
+    size: setFontSizeRem($rf-size,13);
+    style: normal;
+    weight: 400;
+  }
+  line-height: 20px;
+  outline: 0;
+  &:focus {
+    border-color: #4b57bd;
+  }
+  &_theme-smoke {
+    -webkit-appearance: none;
+    background-position-y: center;
+    border: 1px solid #dcdcdc;
+    padding: 5px 0;
+    overflow: hidden;
+    width: 180px
+  }
+  & option {
+    padding: 0 5px 0 3px;
+    line-height: 20px;
+  }
+}
