@@ -5,5 +5,5 @@ CSS only
 
 # Customized-checkboxes, radio buttons, textareas and selects
 This is a library of custom checkboxes, radio buttons, textareas, selects and other elemnets of the forms.
-The result of applying a color from the pallete is available right away. `#2dc963`,`#ce0c2a`,`#ff5400`,`#ff0054`,`#4622da`
+The result of applying a color from the pallete is available right away.
 CSS only is used
