@@ -1,6 +1,6 @@
 # Customized-checkboxes, radio buttons, textareas and selects
 Библиотека кастомных чекбоксов, радио-кнопок, текстовых полей и прочих элементов ввода информации для форм.
-Вы можете сразу увидеть результат применения выбранного цвета для элемента. `#2dc963`,`#ce0c2a`,`#ff5400`,`#ff0054`,`#4622da`
+Вы можете сразу увидеть результат применения выбранного цвета для элемента.<ul><li styles="background-color:#2dc963; width:5px;height:5px; border-radius:100%;"></li></ul> ``,`#ce0c2a`,`#ff5400`,`#ff0054`,`#4622da`
 CSS only
 
 # Customized-checkboxes, radio buttons, textareas and selects
